@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://127.0.0.1:5500/pwskill.web/project.web/webcalculator/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./calculater By code Traversal_files/style.css">
+  <title>calculater By code Traversal</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+
+  
+<body>
+  <div class="calculator">
+    <input type="text" placeholder="0" id="inputBox" fdprocessedid="irqw0m">
+  <div>
+    <button class="operator" fdprocessedid="0fqr6m">AC</button>
+    <button class="operator" fdprocessedid="qc21e">DEL</button>
+    <button class="operator" fdprocessedid="wqm6uo">%</button>
+    <button class="operator" fdprocessedid="jsvvjt">/</button>
+  </div>
+  <div>
+    <button fdprocessedid="s0l4cm">7</button>
+    <button fdprocessedid="id84e9">8</button>
+    <button fdprocessedid="fxom7g">9</button>
+    <button class="operator" fdprocessedid="8aovrd">*</button>
+  </div>
+  <div>
+    <button fdprocessedid="4mez8">4</button>
+    <button fdprocessedid="o86syv">5</button>
+    <button fdprocessedid="6ap0qh">6</button>
+    <button class="operator" fdprocessedid="u0m1es">-</button>
+  </div>
+  <div>
+    <button fdprocessedid="tbmsm4">1</button>
+    <button fdprocessedid="0qd4z">2</button>
+    <button fdprocessedid="8qlrp">3</button>
+    <button class="operator" fdprocessedid="2d117o">+</button>
+  </div>
+  <div>
+    <button fdprocessedid="uf2one">00</button>
+    <button fdprocessedid="a1ik4i">0</button>
+    <button fdprocessedid="1r6i6s">.</button>
+    <button class="equalBtn" fdprocessedid="gmrshk">=</button>
+  </div>
+  </div>
+  <script src="./calculater By code Traversal_files/script.js.download"></script>
+
+</body></html>
