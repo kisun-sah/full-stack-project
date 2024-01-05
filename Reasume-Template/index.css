@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0px;
+  outline: 0px;
+  margin: 0px;
+  font-family: "Poppins";
+}
+
+/* resume layout using grid */
+.resume-template {
+  display: grid;
+  grid-template-columns: 300px auto;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0px 0px 3px 1px lightgray;
+  padding: 20px;
+  column-gap: 50px;
+  border: 2px solid gray;
+}
+
+/* profile-top css */
+.profile-top {
+  background-color: #5271ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.avtar {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  overflow: hidden;
+}
+
+.name,
+.title {
+  font-weight: bold;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.github,
+.linkedin {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+/* profile-bottom css */
+.profile-bottom {
+  background-color: #3c4240;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.certificate,
+.skills,
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-list,
+.skill-list,
+.cert-list {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.line1 {
+  height: 2px;
+  background: white;
+}
+
+.contact-value {
+  color: gray;
+}
+
+.skill-progress {
+  height: 10px;
+}
+
+.certificate-heading,
+.skills-heading,
+.contact-heading {
+  display: flex;
+  gap: 8px;
+}
+
+/* details section css */
+.details {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding-right: 20px;
+}
+
+.objective-heading,
+.experience-heading,
+.project-heading,
+.education-heading {
+  color: #5271ff;
+}
+
+.objective-desc {
+  color: gray;
+  padding-top: 10px;
+}
+
+.job-desc,
+.project-desc,
+.college-name {
+  color: gray;
+  padding-left: 40px;
+}
+
+.line2 {
+  height: 2px;
+  background: black;
+}
+
+.experience,
+.project,
+.education {
+  padding-top: 20px;
+}
+
+.experience-list li,
+.project-list li,
+.education-list li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.role,
+.project-name,
+.education-date {
+  display: flex;
+  gap: 24px;
+}
+
+.company,
+.tech-stack,
+.education-type,
+.college-name {
+  padding-left: 40px;
+}
+
+.role-date {
+  display: flex;
+  justify-content: space-between;
+}
