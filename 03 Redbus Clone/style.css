@@ -420,7 +420,7 @@ main {
 .section_three {
   background-image: url("./assets/appInstallbg.svg");
   padding: 2rem;
-  color: white+;
+  color: white;
   background-size: cover;
   background-position: right center;
   background-repeat: no-repeat;

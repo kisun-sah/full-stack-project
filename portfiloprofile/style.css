@@ -24,22 +24,26 @@ body{
     background:var(--bg-color);
     color: var(--text-coloe);
 }
-.header{
+.header {
     position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: transparent;
+    background:transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
     transition: .3s;
+
+
 }
-.header .sticky{
-    background: yellowgreen;
+.header .sticky {
+    background-color: yellowgreen;
 }
+
+
 .logo{
     font-size: 2.5rem;
     color: var(--text-color);
@@ -140,7 +144,7 @@ section{
     
 }
 .btn-box .btn:hover{
-    color:red;
+    color:rgb(154, 9, 198);
 }
 .btn-box .btn:nth-child(2) {
     background: transparent;
@@ -148,7 +152,7 @@ section{
 }
 
 .btn-box .btn:nth-child(2)::before{
-    background:red;
+    background:rgb(2, 21, 74);
 
 
 }
@@ -205,7 +209,7 @@ section{
     left: 0;
     width: 0;
     height: 100%;
-    background:red;
+    background:rgb(14, 61, 88);
     z-index: -1;
     transition: .5s;
 }
