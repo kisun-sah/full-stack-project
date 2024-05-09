@@ -10,6 +10,7 @@ The homepage of redbus is not responsive by itself as they have seprate mobile w
 
 - HTML
 - CSS
+- JavaScript
 
 ## Website Link
 
