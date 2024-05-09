@@ -1,4 +1,3 @@
-//toggle icon navbar
 
 //scroll section 
 let sections =document.querySelectorAll('section');
