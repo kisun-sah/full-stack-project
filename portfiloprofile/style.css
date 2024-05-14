@@ -1,4 +1,5 @@
 *{
+
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -144,7 +145,7 @@ section{
     
 }
 .btn-box .btn:hover{
-    color:rgb(154, 9, 198);
+    color:var(--text-color);
 }
 .btn-box .btn:nth-child(2) {
     background: transparent;
@@ -175,10 +176,13 @@ section{
 }
 .home-sci{
     position: absolute;
-    bottom: 4rem;
-    width: 170px;
+    
+    bottom: 10rem;
+    width: 180px;
     display: flex;
     justify-content: space-between;
+
+  
 
 }
 .home-sci a{
@@ -191,32 +195,21 @@ section{
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 50px;
     color: var(--main-color);
     z-index: 1;
     overflow: hidden;
     transition: .5s;
+
+ 
+
     
 
 }
 .home-sci a:hover{
-    color:var(--main-color);
+    background-color:var(--text-color);
 }
-.home-sci a::before{
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background:rgb(14, 61, 88);
-    z-index: -1;
-    transition: .5s;
-}
-.home-sci a:hover::before {
-    width: 100%;
 
-}
 .home-imgHover{
     position: absolute;
     top: 0;
@@ -232,6 +225,19 @@ section{
     opacity:.8;
 
 }
+/* ................................ */
+.edu{
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+
+
+
+}
+.edu :hover{
+    background-color: RoyalBlue;
+}
+/* ......................... */
 .about {
     position: relative;
     display: inline-flex;
@@ -472,6 +478,7 @@ span{
     background: var(--main-color);
 
 }
+/* reference to visit github */
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1 ) .bar span{
     width: 90%;
@@ -574,6 +581,7 @@ span{
     resize: none;
 }
 .contact form .btn {
+
     cursor: pointer;
     position: relative;
     display: inline-flex;
@@ -588,6 +596,7 @@ span{
     font-weight: 600;
     letter-spacing: .1rem;
     color:var(--text-color);
+
    
 }
 
@@ -598,14 +607,18 @@ border-radius: .10rem;
 transition:.3s ;
 
 }
+
 .footer{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
+
 }
+
 .footer-text p{
     font-size: 1.6rem;
     color: var(--text-color);
@@ -645,3 +658,57 @@ transition:.3s ;
 .footer-iconTop a:hover i{
     color: var(--main-color);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
