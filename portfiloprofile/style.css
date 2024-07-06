@@ -363,6 +363,27 @@ span{
     transition:.3s ;
     
     }
+    /* .............................................................. */
+
+    .service {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: .2rem;
+        background: rgba(9, 6, 92, 0.2);
+        padding-bottom: .6rem;
+    
+     
+    }
+ 
+
+
+
+
+    /* ........................................................ */
 
 .education{
     color: var(--text-color);
